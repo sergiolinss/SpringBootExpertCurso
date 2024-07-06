@@ -1,13 +1,9 @@
 package io.github.sergiolinss;
+import io.github.sergiolinss.annotations.Development;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
 
-@Component
-@Configuration
-@Profile("development")
+@Development
 public class MinhaConfiguration {
 
     @Bean
